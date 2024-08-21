@@ -1,1 +1,22 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+
+# Ignore vendor directory (used with Go modules)
+vendor/
+
+# Ignore the .env file
 .env
+
+# Ignore any build or output directories
+build/
+dist/
+
+# Ignore log files
+*.log
